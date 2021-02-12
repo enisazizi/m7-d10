@@ -138,7 +138,7 @@ function Home (props:Props){
                            ):results && results.weather && results.weather[0].main==="Clouds" ?    
                            (
                             <Jumbotron>
-                                 <img src="https://www.jing.fm/clipimg/full/21-214548_cloudy-weather-clipart-cartoon-weather-cloudy.png" style ={{width:"256px",height:"256px"}}alt="clear"/>
+                                 <img src="https://i.pinimg.com/originals/1b/62/ea/1b62ea193fb21699f233c618a8160606.png" style ={{width:"256px",height:"256px"}}alt="clear"/>
 
                                 <h1>{results.name}</h1>
                                 
@@ -155,7 +155,7 @@ function Home (props:Props){
                            )
                            :results && results.weather && results.weather[0].main==="Snow" ?
                            (  <Jumbotron>
-                            <img src="http://clipart-library.com/new_gallery/39-396184_snowfall-png-pic-snowy-weather-clip-art.png" style ={{width:"256px",height:"256px"}}alt="snow"/>
+                            <img src="https://clipart-library.com/new_gallery/39-396184_snowfall-png-pic-snowy-weather-clip-art.png" style ={{width:"256px",height:"256px"}}alt="snow"/>
                            <h1>{results.name}</h1>
                            
                            <p>
