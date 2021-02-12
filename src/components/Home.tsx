@@ -62,7 +62,7 @@ function Home (props:Props){
   const submitData = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-        let response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${search}&appid=063bfcaaec6b64a58fccf009290840ca`,{
+        let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=063bfcaaec6b64a58fccf009290840ca`,{
             method:"GET"
         })
           let data:WeatherAPI = await response.json() 
