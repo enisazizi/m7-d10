@@ -155,7 +155,7 @@ function Home (props:Props){
                            )
                            :results && results.weather && results.weather[0].main==="Snow" ?
                            (  <Jumbotron>
-                            <img src="http://clipart-library.com/new_gallery/39-396184_snowfall-png-pic-snowy-weather-clip-art.png" style ={{width:"256px",height:"256px"}}alt="clear"/>
+                            <img src="http://clipart-library.com/new_gallery/39-396184_snowfall-png-pic-snowy-weather-clip-art.png" style ={{width:"256px",height:"256px"}}alt="snow"/>
                            <h1>{results.name}</h1>
                            
                            <p>
