@@ -70,14 +70,14 @@ function Home (props:Props){
           const unixTimestamp:number = data.sys.sunrise
           const milliseconds = unixTimestamp * 1000 // 1575909015000
           const dateObject = new Date(milliseconds)
-          // const humanDateFormat = dateObject.toLocaleString("en-US", {timeZoneName: "short"})
+          
           const humanDateFormat = dateObject.toLocaleString("en-US", {hour: "numeric"})
 
 
           const unixTimestamp1:number = data.sys.sunset
           const milliseconds1 = unixTimestamp1 * 1000 // 1575909015000
           const dateObject1 = new Date(milliseconds1)
-          // const humanDateFormat = dateObject.toLocaleString("en-US", {timeZoneName: "short"})
+         
           const humanDateFormat1 = dateObject1.toLocaleString("en-US", {hour: "numeric"})
         setSunrise(humanDateFormat)
         setSunset(humanDateFormat1)
